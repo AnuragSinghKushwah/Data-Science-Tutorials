@@ -193,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529996778661</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added String Manipulations Examples">
+      <created>1529996817629</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1529996817629</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -252,7 +259,8 @@
     <MESSAGE value="Added Folder Structure for Precise Learning" />
     <MESSAGE value="Added First Proof of Concept Project in EdTech" />
     <MESSAGE value="Change in Institutes-Matching Project Markdown file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change in Institutes-Matching Project Markdown file" />
+    <MESSAGE value="Added String Manipulations Examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added String Manipulations Examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
