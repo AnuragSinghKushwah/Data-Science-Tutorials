@@ -8,5 +8,5 @@ We are trying to help students in order to find all the Institutions on single p
 Where Students can know more about the Institutions Insights.
 <br>
 * Alumni's Feedback Analysis (Sentiment Analysis).
-* Fees Analysis (K-Means Analysis).
+* Fees Analysis (K-Means Clustering).
 * Course's Segmentations (Supervised Clustering).
