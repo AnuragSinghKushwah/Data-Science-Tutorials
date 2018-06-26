@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="307f583a-6742-42a4-9198-5a8d965b8240" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Projects/EdTech/Institutes-Matching/README.md" afterPath="$PROJECT_DIR$/Projects/EdTech/Institutes-Matching/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529994397453</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change in Institutes-Matching Project Markdown file">
+      <created>1529994460157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1529994460157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -225,7 +231,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Folder Structure for Precise Learning" />
     <MESSAGE value="Added First Proof of Concept Project in EdTech" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added First Proof of Concept Project in EdTech" />
+    <MESSAGE value="Change in Institutes-Matching Project Markdown file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change in Institutes-Matching Project Markdown file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
