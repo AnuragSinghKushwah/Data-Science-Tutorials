@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="307f583a-6742-42a4-9198-5a8d965b8240" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python-Programming/Datatypes/Strings/string_manipulations.ipynb" afterPath="$PROJECT_DIR$/Python-Programming/Datatypes/Strings/string_manipulations.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -200,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529996817629</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added String Manipulations Examples">
+      <created>1529996826585</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1529996826585</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
