@@ -1,0 +1,40 @@
+1480918204238	geckodriver	INFO	Listening on 127.0.0.1:58832
+1480918204963	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.HmuhMqehXnH2
+1480918204964	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1480918204985	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34040
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-133d4d7c9de72117ee8e.24ec5279eef1.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1480918299438	geckodriver	INFO	Listening on 127.0.0.1:60696
+1480918300439	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.vl3qrFBQwBgF
+1480918300440	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1480918300441	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38372
+JavaScript warning: https://static.naukimg.com/s/4/121/j/pushdownComponent_v7.min.js, line 1: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/45591759/20161005114123360/index.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=r81ala4lXF&t=1, line 142: SyntaxError: identifier starts immediately after numeric literal
+JavaScript warning: https://s0.2mdn.net/ads/richmedia/studio/pv2/45591759/20161005114123360/index.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=r81ala4lXF&t=1, line 37: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-133d4d7c9de72117ee8e.24ec5279eef1.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1480918381819	geckodriver	INFO	Listening on 127.0.0.1:47746
+1480918382815	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.w2KkKXpGUMTz
+1480918382815	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1480918382820	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44626
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-133d4d7c9de72117ee8e.24ec5279eef1.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: https://saxp.zedo.com/sclient/tt3/fmos.js, line 477: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1490175029255	geckodriver	INFO	Listening on 127.0.0.1:35203
+1490175030239	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.IzFlZlq99HIx
+1490175030240	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1490175030244	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39661
+1490175031466	Marionette	INFO	Listening on port 39661
+[Child 12805] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 12805] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+1490175048294	geckodriver	INFO	Listening on 127.0.0.1:50827
+1490175049292	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.uKvMStUksUwd
+1490175049293	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1490175049297	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44295
+1490175050452	Marionette	INFO	Listening on port 44295
+[Child 12901] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 12901] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+1490175141149	geckodriver	INFO	Listening on 127.0.0.1:40899
+1490175142149	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.eiPK01CzPuwF
+1490175142194	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1490175142198	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41437
+1490175143366	Marionette	INFO	Listening on port 41437
+[Child 13086] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 13086] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056

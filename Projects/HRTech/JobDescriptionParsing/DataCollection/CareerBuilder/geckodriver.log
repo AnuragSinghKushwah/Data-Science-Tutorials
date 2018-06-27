@@ -1,0 +1,225 @@
+1481956848424	geckodriver	INFO	Listening on 127.0.0.1:55419
+1481956848504	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.aNHAdEDKjLj4
+1481956848505	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1481956848515	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33699
+JavaScript error: resource://gre/modules/IndexedDBHelper.jsm, line 138: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    ConnectionData.prototype<.executeTransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:624:1
+TaskImpl_run@resource://gre/modules/Task.jsm:315:40
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:1
+Spinner.prototype.observe@resource://gre/modules/AsyncShutdown.jsm:529:9
+nsAsyncShutdownBarrier.prototype.wait/<@resource://gre/components/nsAsyncShutdown.js:215:7
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:1
+Spinner.prototype.observe@resource://gre/modules/AsyncShutdown.jsm:529:9
+
+1481961105791	geckodriver	INFO	Listening on 127.0.0.1:49864
+1481961106183	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.32eIT4O54Bst
+1481961106184	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1481961106282	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46571
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-133d4d7c9de72117ee8e.24ec5279eef1.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+Vector smash protection is enabled.
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860790997, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+1481961293874	geckodriver	INFO	Listening on 127.0.0.1:35050
+1481961294846	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.J8beBckAfmps
+1481961294847	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1481961294857	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40461
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-133d4d7c9de72117ee8e.24ec5279eef1.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+Vector smash protection is enabled.
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860790997, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962105, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860790997, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860790997, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860790709, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+1481961483845	geckodriver	INFO	Listening on 127.0.0.1:38766
+1481961484848	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.eR002IqoKZ7b
+1481961484850	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1481961484857	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44395
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-133d4d7c9de72117ee8e.24ec5279eef1.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+Vector smash protection is enabled.
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857200355, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860790709, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857200355, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857200355, line 1: Error: Permission denied to access property "href"
+Vector smash protection is enabled.
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860790709, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860790997, line 1: Error: Permission denied to access property "href"
+1481965711408	geckodriver	INFO	Listening on 127.0.0.1:57269
+1481965712387	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.flJZyDO4igfa
+1481965712387	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1481965712415	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36119
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-133d4d7c9de72117ee8e.24ec5279eef1.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+Vector smash protection is enabled.
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860790997, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860790997, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857148625, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857193329, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857161654, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860796372, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857178955, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857148625, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857162086, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857191699, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857152151, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857161654, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857162086, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857149438, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857162086, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857161654, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860796372, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857184239, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860790997, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962105, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481859922891, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481859922891, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860796246, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860796372, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857152151, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860790709, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857178955, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962105, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860796246, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857152151, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857149438, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962105, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962105, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857149438, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481859922557, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481859922557, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857184239, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481857178955, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481860796246, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+JavaScript error: http://cdn.advanseads.com/dnaFiles/js/html_render_v4.min.js?v=1481205962177, line 1: Error: Permission denied to access property "href"
+1481966245941	geckodriver	INFO	Listening on 127.0.0.1:46788
+1481966246037	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.na3r2c3CCsNV
+1481966246037	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1481966246039	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43245
+1481969325816	geckodriver	INFO	Listening on 127.0.0.1:55472
+1481969326720	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ik9KkGLcSque
+1481969326721	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1481969326753	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40314
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-133d4d7c9de72117ee8e.24ec5279eef1.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1481969410803	geckodriver	INFO	Listening on 127.0.0.1:42553
+1481969411795	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.fU7NPVwLCiQH
+1481969411795	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1481969411797	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33461
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-133d4d7c9de72117ee8e.24ec5279eef1.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1488623866054	geckodriver	INFO	Listening on 127.0.0.1:43514
+1488623866946	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.VmFPIzbqibcc
+1488623866947	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488623866998	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36835
+1488623872446	Marionette	INFO	Listening on port 36835
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+[NPAPI 9765] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[NPAPI 9765] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 9720] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 323
+[Child 9720] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 323
+[Child 9720] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 9720] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+1490249758429	geckodriver	INFO	Listening on 127.0.0.1:38268
+1490249759427	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.qIq7QVM1t7u2
+1490249759427	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1490249759430	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43739
+1490249760699	Marionette	INFO	Listening on port 43739
+[Child 8873] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 8873] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1490249819998	geckodriver	INFO	Listening on 127.0.0.1:33602
+1490249820996	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.gQ6lHVNix7bu
+1490249820996	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1490249821000	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43284
+1490249822282	Marionette	INFO	Listening on port 43284
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[Child 9023] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 9023] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056

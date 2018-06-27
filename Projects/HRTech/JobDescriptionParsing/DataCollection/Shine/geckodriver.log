@@ -1,0 +1,581 @@
+1488626769394	geckodriver	INFO	Listening on 127.0.0.1:57650
+1488626770399	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.UEz0AngzPi6m
+1488626770400	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488626770405	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36655
+1488626771605	Marionette	INFO	Listening on port 36655
+1488626775844	geckodriver	INFO	Listening on 127.0.0.1:35963
+1488626776841	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.blzSwx0Q5LNN
+1488626776841	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488626776851	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38551
+1488626778541	Marionette	INFO	Listening on port 38551
+[Child 11539] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 11539] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[Child 11423] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 11423] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+1488774919253	geckodriver	INFO	Listening on 127.0.0.1:53698
+1488774920141	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.b8UjKDvT3sS3
+1488774920142	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488774920179	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38032
+1488774925161	Marionette	INFO	Listening on port 38032
+1488774931145	geckodriver	INFO	Listening on 127.0.0.1:60135
+1488774932143	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.QfB4JcoGmMrz
+1488774932144	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488774932146	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40175
+1488774933345	Marionette	INFO	Listening on port 40175
+JavaScript error: , line 0: uncaught exception: undefined
+1488776438878	geckodriver	INFO	Listening on 127.0.0.1:37254
+1488776439882	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.exhvf6PuLwNZ
+1488776439884	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488776439889	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43070
+1488776441154	Marionette	INFO	Listening on port 43070
+1488776445215	geckodriver	INFO	Listening on 127.0.0.1:56036
+1488776446213	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.lJwW6yp4fnP5
+1488776446213	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488776446215	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35926
+1488776447384	Marionette	INFO	Listening on port 35926
+JavaScript error: http://www.startupindia.gov.in/learning-development/?utm_source=Shine&utm_campaign=ROS&utm_medium=Fixed&utm_content=728x90, line 1: SyntaxError: missing } after property list
+
+###!!! [Child][OnMaybeDequeueOne] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8E0007,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2E0045,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A00C3,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+
+1488776707826	geckodriver	INFO	Listening on 127.0.0.1:36200
+1488776708828	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.rwx3ZjBF7ttw
+1488776708828	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488776708831	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43024
+1488776709975	Marionette	INFO	Listening on port 43024
+JavaScript error: , line 0: uncaught exception: undefined
+1488776952242	geckodriver	INFO	Listening on 127.0.0.1:35777
+1488776953244	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Ax5XlZVzEwY0
+1488776953244	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488776953247	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40864
+1488776954597	Marionette	INFO	Listening on port 40864
+JavaScript error: , line 0: uncaught exception: undefined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A011D,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2E0045,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A00C3,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+
+1488777121156	geckodriver	INFO	Listening on 127.0.0.1:48415
+1488777122158	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.fQrAK3dO1VGP
+1488777122159	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488777122161	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37655
+1488777123319	Marionette	INFO	Listening on port 37655
+[Child 8530] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 8530] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+1488781053029	geckodriver	INFO	Listening on 127.0.0.1:37690
+1488781054032	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.YrLB87pz1Wpi
+1488781054033	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488781054035	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35463
+1488781055258	Marionette	INFO	Listening on port 35463
+[Child 10644] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 10644] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+1488782333171	geckodriver	INFO	Listening on 127.0.0.1:60444
+1488782334170	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.KkBiDybBxKEQ
+1488782334171	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488782334173	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45825
+1488782335504	Marionette	INFO	Listening on port 45825
+[Child 11468] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 11468] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+1488782357321	geckodriver	INFO	Listening on 127.0.0.1:34374
+1488782358312	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ewwEPb1ipFRk
+1488782358313	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488782358315	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43806
+1488782359704	Marionette	INFO	Listening on port 43806
+1488782990019	geckodriver	INFO	Listening on 127.0.0.1:56445
+1488782991017	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.piv3D6lIMWC2
+1488782991018	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488782991025	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41112
+1488782992304	Marionette	INFO	Listening on port 41112
+1488783077674	geckodriver	INFO	Listening on 127.0.0.1:54116
+1488783078670	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Nkh19Ed14GxA
+1488783078671	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1488783078676	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35652
+1488783079910	Marionette	INFO	Listening on port 35652
+JavaScript warning: https://s0.2mdn.net/ads/studio/videoteaser/0/avc_codec.js, line 0: Successfully compiled asm.js code (total compilation time 177ms; caching disabled in FF51 due to bug; will be reenabled in FF52)
+JavaScript warning: https://s0.2mdn.net/ads/studio/videoteaser/0/video_teaser_lib.js, line 0: Successfully compiled asm.js code (total compilation time 3ms; caching disabled in FF51 due to bug; will be reenabled in FF52)
+JavaScript warning: https://s0.2mdn.net/ads/studio/videoteaser/0/avc_codec.js, line 0: Successfully compiled asm.js code (total compilation time 178ms; caching disabled in FF51 due to bug; will be reenabled in FF52)
+JavaScript warning: https://s0.2mdn.net/ads/studio/videoteaser/0/video_teaser_lib.js, line 0: Successfully compiled asm.js code (total compilation time 3ms; caching disabled in FF51 due to bug; will be reenabled in FF52)
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60072957/20170216070129538/index.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=ctpa4FtxOr&t=1, line 99: TypeError: ytp.a.playVideo is not a function
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-en_US-vflDQGgxm/base.js, line 688: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60072957/20170216070129538/index.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=AfZYMTkHLr&t=1, line 99: TypeError: ytp.a.playVideo is not a function
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-en_US-vflDQGgxm/base.js, line 688: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript warning: https://s0.2mdn.net/ads/studio/videoteaser/0/avc_codec.js, line 0: Successfully compiled asm.js code (total compilation time 89ms; caching disabled in FF51 due to bug; will be reenabled in FF52)
+JavaScript warning: https://s0.2mdn.net/ads/studio/videoteaser/0/avc_codec.js, line 0: Successfully compiled asm.js code (total compilation time 241ms; caching disabled in FF51 due to bug; will be reenabled in FF52)
+JavaScript warning: https://s0.2mdn.net/ads/studio/videoteaser/0/video_teaser_lib.js, line 0: Successfully compiled asm.js code (total compilation time 5ms; caching disabled in FF51 due to bug; will be reenabled in FF52)
+JavaScript warning: https://s0.2mdn.net/ads/studio/videoteaser/0/video_teaser_lib.js, line 0: Successfully compiled asm.js code (total compilation time 4ms; caching disabled in FF51 due to bug; will be reenabled in FF52)
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60073147/20170216070031963/index.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=ziJrw4sNrb&t=1, line 99: TypeError: ytp.a.playVideo is not a function
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60073147/20170216070031963/index.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=ziJrw4sNrb&t=1, line 99: TypeError: ytp.a.pauseVideo is not a function
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-en_US-vflDQGgxm/base.js, line 688: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60073147/20170216070031963/index.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=Ii9lbvi1Bt&t=1, line 99: TypeError: ytp.a.playVideo is not a function
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-en_US-vflDQGgxm/base.js, line 688: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript warning: https://s0.2mdn.net/ads/studio/videoteaser/0/avc_codec.js, line 0: Successfully compiled asm.js code (total compilation time 181ms; caching disabled in FF51 due to bug; will be reenabled in FF52)
+JavaScript warning: https://s0.2mdn.net/ads/studio/videoteaser/0/video_teaser_lib.js, line 0: Successfully compiled asm.js code (total compilation time 3ms; caching disabled in FF51 due to bug; will be reenabled in FF52)
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/60075392/20170216065942052/index.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=HvIWIxkp9D&t=1, line 99: TypeError: ytp.a.playVideo is not a function
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-en_US-vflDQGgxm/base.js, line 688: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-en_US-vflDQGgxm/base.js, line 688: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript warning: https://www.youtube.com/yts/jsbin/player-en_US-vflDQGgxm/base.js, line 688: Error: WebGL: getParameter: parameter: invalid enum value <enum 0x9246>
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: , line 0: Error: Permission denied to access property "href"
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+JavaScript error: https://c.algovid.com/player/cedato_player_108.93_d.js, line 23: Error: Permission denied to access property "href"
+1490245636945	geckodriver	INFO	Listening on 127.0.0.1:60641
+1490245637832	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.HakloDYc35Td
+1490245637834	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1490245637882	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38044
+1490245644369	Marionette	INFO	Listening on port 38044
+1490246074326	geckodriver	INFO	Listening on 127.0.0.1:44351
+1490246075324	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.27nSdYH8GEtY
+1490246075325	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1490246075327	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35391
+1490246076484	Marionette	INFO	Listening on port 35391
+1490246219399	geckodriver	INFO	Listening on 127.0.0.1:37241
+1490246220394	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.gAyB13ABf0Ow
+1490246220394	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1490246220397	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41051
+1490246221660	Marionette	INFO	Listening on port 41051
+[Child 7119] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 7119] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+[Child 6842] WARNING: pipe error (18): Connection reset by peer: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 323
+[Child 6842] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 6842] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1490333442391	geckodriver	INFO	Listening on 127.0.0.1:41037
+1490333443390	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.30JQJ7TZbSjt
+1490333443391	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1490333443393	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37567
+1490333444838	Marionette	INFO	Listening on port 37567
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1040003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[Child 5815] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 5815] ###!!! ABORT: Aborting on channel error.: file /build/firefox-z5GTBX/firefox-51.0.1+build2/ipc/glue/MessageChannel.cpp, line 2056
