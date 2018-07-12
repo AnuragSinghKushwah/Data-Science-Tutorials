@@ -3,6 +3,7 @@ phantomjspath = "/home/anurag/node_modules/phantomjs/bin/phantomjs"
 chromepath = "/usr/lib/chromium-browser/chromedriver"
 logfile = "/home/anurag/Desktop/datascraping.log"
 logformat = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
 def CareerBuilder_config():
     elements = {}
     elements["job_count"] = {"name" : "div", "attrs" : {"class" : "count"}}
