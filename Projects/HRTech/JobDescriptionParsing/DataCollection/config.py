@@ -24,17 +24,17 @@ def CareerBuilder_config():
 
 def Dice_config():
     elements = {}
-    elements["job_count"] = {"name": "h4", "attrs": {"class": "pull-left posiCount sort"}}
+    elements["job_count"] = {"name": "span", "attrs": {"id": "posiCountMobileId"}}
     elements["job_section"] = {"name": "div", "attrs": {"class": "complete-serp-result-div"}}
-    elements["job_title"] = {"name": "a", "attrs": {"class": "dice-btn-link loggedInVisited"}}
-    elements["job_url"] = {"name": "a", "attrs": {"class": "dice-btn-link loggedInVisited"}}
+    elements["job_title"] = {"name": "a", "attrs": {"class": "dice-btn-link loggedInVisited easy-apply"}}
+    elements["job_url"] = {"name": "a", "attrs": {"class": "dice-btn-link loggedInVisited easy-apply"}}
     elements["job_type"] = {"name": "h4", "attrs": {"class": "job-text employment-info"}}
     elements["job_summary"] = {"name": "div", "attrs": {"class": "shortdesc"}}
     elements["job_employer"] = {"name": "span", "attrs": {"class": "hidden-xs"}}
     elements["job_employer_text"] = {"name": "a", "attrs": {"class": "dice-btn-link"}}
     elements["job_location"] = {"name": "li", "attrs": {"class": "location col-sm-3 col-xs-12 col-md-2 col-lg-3 margin-top-3 text-ellipsis"}}
     elements["job_posted"] = {"name": "li", "attrs": {"class": "posted col-xs-12 col-sm-2 col-md-2 col-lg-2 margin-top-3 text-wrap-padding"}}
-    elements["job_morejobs"] = {"name": "a", "attrs": {"class": "company-collapse-link"}}
+    elements["job_morejobs"] = {"name": "a", "attrs": {"rel": "nofollow"}}
     elements["job_description"] = {"name": "div", "attrs": {"id": "jobdescSec"}}
     elements["phantomjspath"] = phantomjspath
     elements["chromepath"] = chromepath
