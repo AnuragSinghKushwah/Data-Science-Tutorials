@@ -1,5 +1,6 @@
 __author__="Anurag"
 import datetime,time,random,logging,re
+import lxml
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
@@ -22,8 +23,9 @@ class jobs_links_scraping():
         if browser == "firefox":
             self.driver = webdriver.Firefox()
             self.logger.info("browser_selected - firefox")
+
         elif browser == "chrome":
-            self.driver = webdriver.Chrome(config["phantomjspath"])
+            self.driver = webdriver.Chrome(config["chromepath"])
             self.logger.info("browser_selected - chrome")
         else:
             self.driver = webdriver.PhantomJS(config["phantomjspath"])
@@ -61,7 +63,9 @@ class jobs_links_scraping():
     def pageCount(self,page):
         Soup= BeautifulSoup(page,"lxml")
         try:
+
             pagecount =int(re.findall(r'\d+', Soup.find(config["job_count"]["name"],config["job_count"]["attrs"]).text)[0])
+
             return pagecount
         except Exception as e:
             self.logger.fatal("exception in finding page_count - %s",e)
@@ -72,6 +76,7 @@ class jobs_links_scraping():
         jobs = []
         if Page:
             for job in Page.find_all(config["job_section"]["name"],config["job_section"]["attrs"]):
+
                 jobtitle = ""
                 joblink = ""
                 jobid = ""
@@ -85,29 +90,39 @@ class jobs_links_scraping():
 
                 try:
                     jobtitle = job.find(config["job_title"]["name"],config["job_title"]["attrs"]).text.strip()
+                    print(jobtitle)
+                    print("jobtitle")
                 except Exception as e:
                     self.logger.exception("exception in job title - %s",e)
                     pass
 
                 try:
                     joblink = "http://www.careerbuilder.com"+job.find(config["job_url"]["name"],config["job_url"]["attrs"]).find("a")["href"].strip()
+                    print(joblink)
+                    print("joblink")
                 except Exception as e:
                     self.logger.exception("exception in job url - %s",e)
                     pass
 
                 try:
                     jobid = job.find(config["job_title"]["name"],config["job_title"]["attrs"]).find("a")["data-job-did"].strip()
+                    print(jobid)
+                    print("jobid")
                 except Exception as e:
                     self.logger.exception("exception in job id - %s",e)
                     pass
 
                 try:
                     jobtype = job.find(config["job_type"]["name"],config["job_type"]["attrs"]).text.strip()
+                    print(jobtype)
+                    print("jobtype")
                 except Exception as e:
                     self.logger.exception("exception in job type - %s",e)
                     pass
                 try:
                     jobsummary = job.find(config["job_summary"]["name"],config["job_summary"]["attrs"]).text.strip()
+                    print(jobsummary)
+                    print("jobsummary")
                 except Exception as e:
                     self.logger.exception("exception in job summary - %s",e)
                     pass
@@ -115,8 +130,12 @@ class jobs_links_scraping():
                 try:
                     jobemployer = job.find(config["job_employer"]["name"],config["job_employer"]["attrs"]).find(config["job_employer_text"]["name"],config["job_employer_text"]["attrs"]).find("a").text.strip()
                 except Exception as e:
+                    print("job employer")
                     try:
                         jobemployer = job.find(config["job_employer"]["name"],config["job_employer"]["attrs"]).find(config["job_employer_text"]["name"],config["job_employer_text"]["attrs"]).text.strip()
+
+                        # jobemployer = job.find(config["job_employer"]["name"], config["job_employer"]["attrs"]).text
+                        print(jobemployer)
                     except Exception as e:
                         self.logger.exception("exception in job employer - %s",e)
                         pass
@@ -124,6 +143,9 @@ class jobs_links_scraping():
 
                 try:
                     jobemployer_url = "http://www.careerbuilder.com"+job.find(config["job_employer"]["name"],config["job_employer"]["attrs"]).find(config["job_employer_text"]["name"],config["job_employer_text"]["attrs"]).find("a")["href"].strip()
+                    print("jobemployer_url")
+                    print(jobemployer_url)
+
                 except Exception as e:
                     self.logger.exception("exception in job employer url - %s",e)
                     pass
@@ -140,7 +162,9 @@ class jobs_links_scraping():
                     self.logger.exception("exception in job posted date - %s",e)
                     pass
                 try:
-                    morejobs = "http://www.careerbuilder.com"+job.find(config["job_morejobs"]["name"],config["job_morejobs"]["attrs"])["href"].strip()
+                    morejobs = "http://www.careerbuilder.com"+job.find(config["job_morejobs"]["name"],config["job_morejobs"]["attrs"]).find("a")["href"].strip()
+                    print(morejobs)
+                    print("morejobs")
                 except Exception as e:
                     self.logger.exception("exception in more jobs - %s",e)
                     pass
@@ -209,6 +233,9 @@ class job_description_scraping():
 
             ########## calling function to extract the data #############
             FullDesc = self.descriptionExtraction(page=self.driver.page_source)
+            # res=self.description_integrated(self.jobDescUrl)
+            # print(res)
+            # print("res")
             if FullDesc:
                 try:
 
@@ -219,6 +246,8 @@ class job_description_scraping():
                 except Exception as e:
                     self.logger.exception("exception in updating job description - %s",e)
                     pass
+            else:
+                print("already satisfied")
         self.driver.close()
 
     def descriptionExtraction(self,page):
@@ -227,9 +256,12 @@ class job_description_scraping():
         #############################################################################
         desc = []
         try:
+            print("job_description")
             for des in Soup.find_all(config["job_description"]["name"],config["job_description"]["attrs"]):
+                print("desc")
                 desc.append(str(des))
             Description = "<br>".join(desc)
+            print(Description)
         except Exception as e:
             self.logger.exception("exception in finding job description - %s",e)
             pass
@@ -250,14 +282,18 @@ class job_description_scraping():
         try:
             desc = []
             for des in Soup.find_all(config["job_description"]["name"],config["job_description"]["attrs"]):
+                print("job description")
                 desc.append(str(des))
             description = "<br>".join(desc)
+            print(description)
         except Exception as e:
             self.logger.exception("exception in finding job description - %s",e)
             pass
         ####################### Job Title ################################
         try:
             title = Soup.find("div",{"class":"small-12 item"}).find("h1").text
+            print(title)
+            print("title")
         except Exception as e:
             self.logger.exception("exception in job description title - %s",e)
             pass
@@ -275,6 +311,7 @@ class job_description_scraping():
             pass
         ###################### job industry ##############################
         try:
+            print("industry")
             industry = Soup.find("div",{"id":"job-industry"}).text
         except Exception as e:
             self.logger.exception("exception in job industry - %s",e)
@@ -315,11 +352,12 @@ class job_description_scraping():
             print("meta_data   ------->",meta_data)
 
 if __name__ == '__main__':
-    # classcall = job_description_scraping()
-    classcall = jobs_links_scraping()
+    classcall = job_description_scraping()
+
+    # classcall = jobs_links_scraping()
     from pymongo import MongoClient
     database = MongoClient("localhost",27017)["JDParser_scrap"]["CB_links"]
     functioncall = classcall.linksAutomation(database=database,keyword="python developer",browser="firefox")
 
     # page = open("/home/anurag/Desktop/cbdesc.html","r").read()
-    # functioncall = job_description_scraping().descriptionAutomation(database=database)
+    functioncall = job_description_scraping().descriptionAutomation(database=database)

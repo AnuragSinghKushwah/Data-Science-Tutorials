@@ -21,7 +21,7 @@ class job_links_scraping():
         handler.setFormatter(formatter)
         self.logger.addHandler(handler)
 
-    def linksAutomation(self,database,keyword,location=None,browser="phantomjs"):
+    def linksAutomation(self,database,keyword,location=None,browser="phantomjspath"):
         profile = webdriver.FirefoxProfile()
         # profile.set_preference("geo.prompt.testing", True)
         # profile.set_preference("geo.prompt.testing.allow", True)
@@ -51,9 +51,11 @@ class job_links_scraping():
         self.logger.info("searchurl - %s",self.searchurl)
         self.driver.get(self.searchurl)
         pagecount = self.pagecount(self.driver.page_source)
+        print(pagecount)
         self.logger.info("total jobs found - %s",pagecount)
 
-        for pagenumber in range(1,round(pagecount/120)+1):
+        for pagenumber in range(1,round(int(pagecount)/120)+1):
+            print("")
             if pagenumber==1:
                 trickurl = self.searchurl
             else:
@@ -97,19 +99,20 @@ class job_links_scraping():
                 pass
             ####################### Description Url #####################
             try:
-                descriptionurl = jobs.find(config["job_url"]["name"],config["job_url"]["attrs"])["href"].strip()
+                descriptionurl = "https://www.dice.com"+jobs.find(config["job_url"]["name"],config["job_url"]["attrs"])["href"].strip()
             except Exception as e:
                 self.logger.exception("exception in job url - %s",e)
                 pass
             ####################### Description ID ######################
             try:
-                descriptionId = jobs.find(config["job_url"]["name"],config["job_url"]["attrs"])["value"].strip()
+                descriptionId =  jobs.find(config["job_url"]["name"],config["job_url"]["attrs"])["value"].strip()
             except Exception as e:
                 self.logger.exception("exception in job id - %s",e)
                 pass
             ####################### Job Summary #########################
             try:
                 summary = jobs.find(config["job_summary"]["name"],config["job_summary"]["attrs"]).text.strip()
+
             except Exception as e:
                 self.logger.exception("exception in job summary  - %s",e)
                 pass
@@ -122,6 +125,7 @@ class job_links_scraping():
             ######################## Job Location #######################
             try:
                 location = jobs.find(config["job_location"]["name"],config["job_location"]["attrs"])["title"].strip()
+
             except Exception as e:
                 self.logger.exception("exception in job location - %s",e)
                 pass
@@ -165,16 +169,23 @@ class job_links_scraping():
             descriptionDict["processFlag"] = "false"
             descriptionDict["source"] = "Dice"
             descriptionDict["jobType"] = ""
-            descriptionDict["moreJobsURL"] = ""
-            descriptionDict["postedBy"] = recruiter
+            descriptionDict["moreJobsURL"] = morejobs
+            descriptionDict["postedBy"] = postedDay
             descriptionArray.append(descriptionDict)
 
         return descriptionArray
 
+    #
     def pagecount(self,page):
         Soup = BeautifulSoup(page,"lxml")
         try:
-            totaljobs =int(re.findall(r'\d+',Soup.find(config["job_count"]["name"],config["job_count"]["attrs"]).text.split("of")[1])[0])
+            jobs=Soup.find(config["job_count"]["name"],config["job_count"]["attrs"]).text
+            print(jobs)
+            totaljobs=jobs.replace(",","")
+            print(totaljobs)
+
+
+            # totaljobs =int(re.findall(r'\d+',Soup.find(config["job_count"]["name"],config["job_count"]["attrs"]).text.split("of")[1][0]))
             return totaljobs
         except Exception as e:
             self.logger.fatal("exception in jobs count - %s",e)
@@ -192,7 +203,7 @@ class job_description_scraping():
         handler.setFormatter(formatter)
         self.logger.addHandler(handler)
 
-    def descriptionAutomation(self,database,browser="phantomjs"):
+    def descriptionAutomation(self,database,browser="phantomjspath"):
         if browser == "firefox":
             self.driver = webdriver.Firefox()
         elif browser == "chrome":
@@ -216,6 +227,7 @@ class job_description_scraping():
                                                                     "descriptionPage":self.driver.page_source,
                                                                     "processFlag":"true",
                                                                     "descTime":datetime.datetime.now()}}))
+                    print("update")
                 except Exception as e:
                     self.logger.fatal('exception in updating job description - %s',e)
                     pass
@@ -225,6 +237,7 @@ class job_description_scraping():
         Soup = BeautifulSoup(page,"lxml")
         try:
             Description = Soup.find(config["job_description"]["name"],config["job_description"]["attrs"])
+            print(Description)
             return Description
         except Exception as e:
             self.logger.exception("exception in job description - %s",e)
@@ -241,3 +254,4 @@ if __name__ == '__main__':
     functioncall=classcall.linksAutomation(database,keyword,location,browser="firefox")
     # functioncall = classcall.linksScraper(page)
     # functioncall=classcall.pagecount(page)
+    functioncall1 = job_description_scraping().descriptionAutomation(database=database)
