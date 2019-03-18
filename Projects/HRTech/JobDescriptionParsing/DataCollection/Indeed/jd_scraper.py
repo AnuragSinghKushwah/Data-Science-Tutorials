@@ -6,6 +6,7 @@ config = Indeed_config()
 from urllib.parse import urlencode
 from bs4 import BeautifulSoup
 import logging,time,random
+import lxml
 
 from DataCollection.config import logfile,logformat
 class job_links_scraping():
@@ -87,7 +88,9 @@ class job_links_scraping():
 
         ############## Finding Sections ##########################
         try:
-            searchCount = Soup.find(config["job_count"]["name"], config["job_count"]["attrs"]).text.split("of")[1].strip()
+            Count = Soup.find(config["job_count"]["name"], config["job_count"]["attrs"]).text.split("of")[1].strip()
+            searchCount=Count[0]
+          
         except Exception as e:
             self.logger.fatal("job links searchCount - %s",str(e))
             pass
@@ -146,8 +149,8 @@ class job_links_scraping():
 
                 ########## Finding Salary ########################################
                 try:
-                    stipend2 = section.find(config["job_salary"]["name"], config["job_salary"]["attrs"])
-                    salary= stipend2.find(config["job_salary_tag"]).text.strip()
+                    stipend2 = section.find(config["job_salary"]["name"], config["job_salary"]["attrs"]).text.strip()
+                    
                 except Exception as e:
                     self.logger.exception("exception in job salary - %s",e)
                     pass
@@ -361,7 +364,7 @@ class job_description_scraping():
         else:
             self.driver = webdriver.PhantomJS(config["phantomjspath"])
 
-        for joblink in database.jobDescriptions.find({"processFlag":"false","indeedJob":"true"},
+        for joblink in database.find({"processFlag":"false","indeedJob":"true"},
                                                      {"_id":1},no_cursor_timeout=True).limit(1000):
             self.jobDescUrl = joblink["_id"]
             self.logger.info("search url - %s",self.jobDescUrl)
