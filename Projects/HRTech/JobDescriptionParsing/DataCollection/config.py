@@ -16,7 +16,7 @@ def CareerBuilder_config():
     elements["job_employer_text"] = {"name" : "h4", "attrs" : {"class" : "job-text"}}
     elements["job_location"] = {"name" : "div", "attrs" : {"class" : "columns end large-2 medium-3 small-12"}}
     elements["job_posted"] = {"name" : "div", "attrs" : {"class": "show-for-medium-up"}}
-    elements["job_morejobs"] = {"name" : "a", "attrs" : {"class": "company-collapse-link"}}
+    elements["job_morejobs"] = {"name" : "h2", "attrs" : {"class": "job-title hide-for-medium-up"}}
     elements["job_description"] = {"name" : "div", "attrs" : {"class": "description"}}
     elements["phantomjspath"] = phantomjspath
     elements["chromepath"] = chromepath
@@ -74,10 +74,10 @@ def Indeed_config():
     elements["job_title_head"] ={"name":"h2","attrs":{"class":"jobtitle"}}
     elements["job_title"] =  {"name":"a","attrs":{"class":"turnstileLink"}}
     elements["job_url"] = {"name":"a","attrs":{"class":"turnstileLink"}}
-    elements["job_employer"] = {"name":"span","attrs":{"itemprop":"hiringOrganization"}}
-    elements["job_location"] = {"name":"span","attrs":{"itemprop":"addressLocality"}}
-    elements["job_salary"] = {"name":"td","attrs":{"class":"snip"}}
-    elements["job_salary_tag"] = "nobr"
+    elements["job_employer"] = {"name":"span","attrs":{"class":"company"}}
+    elements["job_location"] = {"name":"span","attrs":{"class":"location"}}
+    elements["job_salary"] = {"name":"span","attrs":{"class":"salary no-wrap"}}
+    
     elements["job_summary"] = {"name":"span","attrs":{"class":"summary"}}
     elements["job_posted"] = {"name":"span","attrs":{"class":"date"}}
     elements["job_morejobs"] = {"name":"span","attrs":{"class":"mat"}}
