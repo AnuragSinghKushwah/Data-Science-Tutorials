@@ -147,7 +147,7 @@ class job_link_scraping():
                 pass
             ####################### skills Required ######################
             try:
-                skillsRequired = [i.text.rstrip(",") for i in jobs.find(config["job_skills"]["name"], config["job_skills"]["attrs"]).findAll("li")]
+                skillsRequired = [i.text.rstrip(",") for i in jobs.find(config["job_skills"]["name"], config["job_skills"]["attrs"]).findAll("mark")]
             except Exception as e:
                 self.logger.exception("exception in job skills - %s",e)
                 pass
@@ -216,7 +216,7 @@ class job_description_scraping():
         for joblink in database.find({"processFlag":"false"},
                                      {"_id":1}, no_cursor_timeout=True):
 
-            self.jobDescUrl = "https://"+joblink["_id"]
+            self.jobDescUrl = joblink["_id"]
             self.logger.info("job description url - %s",self.jobDescUrl)
             self.driver.get(self.jobDescUrl)
             time.sleep(random.randint(5,20))
