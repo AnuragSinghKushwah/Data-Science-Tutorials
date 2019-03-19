@@ -141,16 +141,16 @@ def Naukri_config():
 def Shine_config():
     elements = {}
     elements["job_count"] = {"name": "div", "attrs": {"class": "num_key"}}
-    elements["job_section"] = {"name": "div", "attrs": {"class": "search_listingleft search_listingleft_100"}}
-    elements["job_title"] = {"name": "strong", "attrs": {"itemprop": "title"}}
+    elements["job_section"] = {"name": "li", "attrs": {"class": "search_listingleft search_listingleft_100"}}
+    elements["job_title"] = {"name": "h3", "attrs": {"itemprop": "name"}}
     elements["job_url"] = {"name": "a", "attrs": {"class": "cls_searchresult_a"}}
-    elements["job_summary"] = {"name": "b", "attrs": {"class": "srcresult"}}
-    elements["job_employer"] = {"name": "em", "attrs": {"itemprop": "hiringOrganization"}}
-    elements["job_location"] = {"name": "em", "attrs": {"itemprop": "jobLocation"}}
-    elements["job_posted"] = {"name": "time", "attrs": {"class": "share_links jobDate cls_job_date_format"}}
-    elements["job_skills"] = {"name": "ul", "attrs": {"itemprop": "skills"}}
+    elements["job_summary"] = {"name": "li", "attrs": {"class": "srcresult"}}
+    elements["job_employer"] = {"name": "li", "attrs": {"class": "snp_cnm cls_cmpname cls_jobcompany"}}
+    elements["job_location"] = {"name": "em", "attrs": {"class": "snp_loc"}}
+    elements["job_posted"] = {"name": "li", "attrs": {"class": "time share_links jobDate"}}
+    elements["job_skills"] = {"name": "div", "attrs": {"class": "sk jsrp cls_jobskill"}}
     elements["job_experience"] = {"name": "span", "attrs": {"class": "snp_yoe"}}
-    elements["job_description"] = {"name": "div", "attrs": {"class": "jobdescription pull-left"}}
+    elements["job_description"] = {"name": "div", "attrs": {"class": "jobdescriptioninside"}}
     elements["phantomjspath"] = phantomjspath
     elements["chromepath"] = chromepath
     # elements["job_salary"] = {"name": "span", "attrs": {"itemprop": "baseSalary"}}
