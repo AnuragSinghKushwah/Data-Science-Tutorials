@@ -98,14 +98,18 @@ class job_link_scraping():
 
             ####################### Description Url #####################
             try:
-                descriptionurl = jobs.find(config["job_url"]["name"], config["job_url"]["attrs"])["href"].strip()
+                descriptionurl = jobs.find(config["job_url"]["name"], config["job_url"]["attrs"])["href"].strip("//")
             except Exception as e:
                 self.logger.exception("exception in job url - %s",e)
                 pass
 
             # ####################### Description ID ######################
             try:
-                descriptionId = re.findall("(\d+?.html\?)",jobs.find(config["job_url"]["name"], config["job_url"]["attrs"])["href"].strip())[0].split(".")[0]
+                descr = jobs.find(config["job_url"]["name"], config["job_url"]["attrs"])["href"].split(" ")
+                descrip=descr[0].strip("//")
+                description=descrip.split("?")
+                var = description[0]
+                descriptionId = 'https://'+ var
             except Exception as e:
                 self.logger.exception("exception in job id - %s",e)
                 pass

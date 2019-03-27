@@ -99,15 +99,16 @@ class job_link_scraping():
 
                 ############## Finding Jobs Url ############
                 try:
-                    descriptionurl1 = section.find(config["job_url"]["name"], config["job_url"]["attrs"])["href"].strip().split(descriptionId)[0]
-                    descriptionurl = descriptionurl1 + descriptionId
+                    #descriptionurl1 = section.find(config["job_url"]["name"], config["job_url"]["attrs"])["href"].strip().split(descriptionId)[0]
+                    #descriptionurl = descriptionurl1 + descriptionId
+                    descriptionurl = section.attrs['data-url']
                 except Exception as e:
                     self.logger.exception("exception in Jobs Url - %s", e)
                     pass
 
                 ############## finding Job title ###########
                 try:
-                    descriptionTitle = section.find(config["job_title"]["name"], config["job_title"]["attrs"]).text.strip()
+                    descriptionTitle = section.find(config["job_title"]["name"], config["job_title"]["attrs"]).text
                 except Exception as e:
                     self.logger.exception("exception in Job Title - %s", e)
                     pass
@@ -163,7 +164,11 @@ class job_link_scraping():
 
                 ######## Finding Job Posted Date #############
                 try:
-                    postedDay = section.find(config["job_posted"]["name"], config["job_posted"]["attrs"]).text.strip()
+                    postedDay = section.find(config["job_posted"]["name"], config["job_posted"]["attrs"])
+                    if postedDay:
+                        postedDay = postedDay.text
+                    else:
+                        postedDay = " "
                 except Exception as e:
                     self.logger.exception("exception in job Posted Date - %s", e)
                     pass
@@ -270,5 +275,5 @@ if __name__ == '__main__':
 
     # page = open("/home/anurag/Desktop/shine_description.html","r").read()
 
-    # classcall2 = job_description_scraping().descriptionAutomation(db,browser="firefox")
+    classcall2 = job_description_scraping().descriptionAutomation(db,browser="firefox")
     # print("classcall",classcall)
