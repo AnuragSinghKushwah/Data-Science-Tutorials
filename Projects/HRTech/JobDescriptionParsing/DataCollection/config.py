@@ -43,19 +43,19 @@ def Dice_config():
 
 def FreshersWorld_config():
     elements = {}
-    elements["job_count"] = {"name": "span", "attrs": {"id": "total_job"}}
+    elements["job_count"] = {"name": "span", "attrs": {"class": "number-of-jobs"}}
     # elements["job_count"] = {"name": "span", "attrs": {"id": "pull-left text-info"}}
 
     # "pull-left text-info"
-    elements["job_section"] = {"name": "tr", "attrs": {"itemtype": "http://schema.org/JobPosting"}}
+    elements["job_section"] = {"name": "div", "attrs": {"class": "col-md-12 col-lg-12 col-xs-12 padding-none job-container jobs-on-hover top_space"}}
     elements["job_title"] = {"name": "span", "attrs": {"class": "position"}}
     elements["job_url"] = {"name": "a", "attrs": {"itemprop": "url"}}
     elements["job_employer"] = {"name": "a", "attrs": {"itemprop": "url"}}
     elements["job_location"] = {"name": "span", "attrs": {"itemprop": "jobLocation"}}
-    elements["job_skills"] = {"name": "a", "attrs": {"class": "mouse_hover"}}
-    elements["job_posted"] = {"name": "span", "attrs": {"class": "post_date"}}
-    elements["job_applied"] = {"name": "td", "attrs": {"itemprop": "datePosted"}}
-    elements["job_summary"] = {"name": "td", "attrs": {"itemprop": "qualifications"}}
+    elements["job_skills"] = {"name": "span", "attrs": {"class": "eligibility-skills display-block modal-open"}}
+    elements["job_posted"] = {"name": "span", "attrs": {"class": "age-date"}}
+    elements["job_applied"] = {"name": "span", "attrs": {"itemprop": "datePosted"}}
+    elements["job_summary"] = {"name": "span", "attrs": {"class": "desc"}}
     elements["job_description"] = {"name": "div", "attrs": {"class": "detail-job-details-second-level"}}
     elements["job_description_1"] = {"name": "p", "attrs": {"class": "desc-font"}}
     elements["job_description_2"] = {"name": "div", "attrs": {"class": "detail-container-profile-sub-level"}}

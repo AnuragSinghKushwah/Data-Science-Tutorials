@@ -34,10 +34,11 @@ class job_link_scraping():
         else:
             self.driver = webdriver.PhantomJS(config["phantomjspath"])
 
-        self.baseurl = "https://www.freshersworld.com/jobs"
+        self.baseurl = "https://www.freshersworld.com"
         self.driver.get(self.baseurl)
-        self.driver.find_element_by_id("keyword").clear()
-        self.driver.find_element_by_id("keyword").click()
+        time.sleep(10)
+        #self.driver.find_element_by_id("keyword").clear()
+        #self.driver.find_element_by_id("keyword").click()
         #
         time.sleep(5)
         self.driver.find_element_by_id("keyword").send_keys(keyword)
@@ -75,7 +76,7 @@ class job_link_scraping():
         print("Soup ",Soup)
         try:
             print("here sumthing",Soup.find(config["job_count"]["name"],config["job_count"]["attrs"]).text)
-            jobs = int(Soup.find(config["job_count"]["name"],config["job_count"]["attrs"]).text.split("of")[-1].split()[0])
+            jobs = int(Soup.find(config["job_count"]["name"],config["job_count"]["attrs"]).text)
             print("jobs ",jobs)
             return jobs
         except Exception as e:
@@ -104,7 +105,7 @@ class job_link_scraping():
 
             ####################### Title ###############################
             try:
-                descriptionTitle = jobs.find(config["job_title"]["name"],config["job_title"]["attrs"]).text.strip()
+                descriptionTitle=self.driver.find_element_by_xpath('//*[@id="all-jobs-append"]/div[10]/div[2]/div/div[1]/div[1]').text
             except Exception as e:
                 self.logger.exception("exception in job title - %s",e)
                 pass
@@ -152,7 +153,7 @@ class job_link_scraping():
 
             ####################### skills Required ######################
             try:
-                skillsRequired = jobs.find(config["job_skills"]["name"],config["job_skills"]["attrs"])["title"]
+                skillsRequired = jobs.find(config["job_skills"]["name"],config["job_skills"]["attrs"]).text
             except Exception as e:
                 self.logger.exception("exception in job skills - %s",e)
                 pass
